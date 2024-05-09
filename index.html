@@ -12,23 +12,33 @@
     <hr />
 
     <h2>Select a Character:</h2>
+
     <p>
-      <select id="character-select">
-        <option value="steve">Steve</option>
-        <option value="alex">Alex</option>
-        <option value="villager">Villager</option>
-      </select>
-    </p>
-    <p>
-      <img class="character-img" src="img/steve.jpg" alt="Steve" />
-      <img class="character-img" src="img/alex.jpg" alt="Alex" />
-      <img class="character-img" src="img/villager.jpg" alt="Villager" />
+      <img
+        id="steve-img"
+        class="character-img"
+        src="img/steve.jpg"
+        alt="Steve"
+      />
+      <img id="alex-img" class="character-img" src="img/alex.jpg" alt="Alex" />
+      <img
+        id="villager-img"
+        class="character-img"
+        src="img/villager.jpg"
+        alt="Villager"
+      />
     </p>
     <hr />
 
+    <h2>Simulate Fishing</h2>
     <p>
       <button id="fish-btn">Fish</button>
+      <button id="plus5">+5</button>
+      <button id="until200">Until 200 Cod</button>
+      <button id="sort">Sort</button>
     </p>
+
+    <p>Fish <input id="input" type="text" value="1"> times:</p>
 
     <p>
       <img id="result-img" src="img/Fishing-Rod.png" alt="Pufferfish" />
@@ -46,5 +56,10 @@
       <img src="img/Pufferfish.png" alt="Pufferfish" width="20px" />
       Pufferfish: <span id="num-puffer">0</span>
     </p>
+    <hr>
+
+    <h2>Fishing Inventory</h2>
+
+    <div id="inventory"></div>
   </body>
 </html>

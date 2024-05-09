@@ -29,6 +29,10 @@ select {
   margin: 0 5px;
 }
 
+.green {
+  border: solid green;
+}
+
 #fish-btn {
   background-color: green;
   color: white;
@@ -45,4 +49,14 @@ select {
 
 p {
   font-size: 20px;
+}
+
+#inventory {
+  border: solid black;
+  width: 575px;
+  height: 600px;
+}
+
+.inventoryFish {
+  width: 25px;
 }
